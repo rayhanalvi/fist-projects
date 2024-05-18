@@ -3,51 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook – log in or sign up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Profile Card UI Design </title>
+
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/facvicon3.png" type="image/x-icon">
 </head>
 <body>
-   <section id="body_area">
-    <div id="content_area" class="container">
-        <div class="left_side">
-        <img src="img/logo2.svg" alt="">
-        <h2>Facebook helps you connect and share with the people in your life.</h2>
+    <div class="profiel-card">
+        <div class="image">
+            <img src="profile.jpg" alt="" class="profile-img">
         </div>
-        <div class="form_area">
-            <form action="">
-                <input type="email" placeholder="Email Address or Phone Number">
-                <input type="password" placeholder="Password">
-                <input type="button" value="Log in">
-                <a href="#">Forgotten password?</a>
-                <hr>
-                <button type="button">Create new account</button>
-            </form>
-            <P><a href="#">Create a Page</a> for a celebrity, brand or business.</P>
+        <div class="text-data">
+            <span class="name">Rayhan Alvi</span>
+            <span class="job">Student In Diploma </span>
+        </div>
+
+        <div class="media-buttons">
+            <a href="#" style="background: #4267b2 " class="link">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" style="background: #1da1f2;" class="link">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" style="background: #e1306c;" class="link">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" style="background:#4070f4" class="link">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+
+        <div class="buttons">
+            <button class="button">Subscribe</button>
+            <button class="button">Message</button>
+        </div>
+
+        <div class="analytics">
+            <div class="data">
+                <i class="fa-regular fa-heart"></i>
+                <span class="number">50k</span>
+            </div>
+            <div class="data">
+                <i class="fa-regular fa-comment"></i>
+                <span class="number">20k</span>
+            </div>
+            <div class="data">
+                <i class="fa-regular fa-share-from-square"></i>
+                <span class="number">12k</span>
+            </div>
         </div>
     </div>
-   </section>
-
-        <footer id="footer_area">
-            <div class="container">
-                <ul>
-                    <li><a href="">English (UK)
-                    </a></li>
-                    <li><a href="">বাংলা</a></li>
-                    <li><a href="">অসমীয়া</a></li>
-                    <li><a href="">हिन्दी</a></li>
-                    <li><a href=""> नेपाली</a></li>
-                    <li><a href="">Bahasa Indonesia</a></li>
-                    <li><a href="">العربية</a></li>
-                    <li><a href="">中文(简体)</a></li>
-                    <li><a href="">Bahasa Melayu</a></li>
-                    <li><a href="">Español</a></li>
-                    <li><a href=""> Português (Brasil)</a></li>
-                </ul>
-                <p>Meta © 2024</p>
-            </div>
-           
-        </footer>
-
 </body>
 </html>
